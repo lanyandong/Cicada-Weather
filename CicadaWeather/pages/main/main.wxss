@@ -1,0 +1,78 @@
+.content{
+    font-family: 黑体;  
+    font-size: 14px;
+    color:#FFFFFF;
+    background-size:cover; 
+    height: 100%;
+    width: 100%;
+    background-image: url(http://wx4.sinaimg.cn/small/00709Ldkly1g0gfwbm9wdj30ir0agq4p.jpg);
+}
+
+.info{
+    padding:10px;
+    background:#FFFFFF;
+    background:rgba(0, 0, 0, 0.5); 
+    margin: 15rpx;
+    height: 12rem;        
+}
+
+.city{
+    color:white;
+    font-size: 16px;
+    text-align: left;
+}
+
+.today{
+    padding-top: 50rpx;
+    height: 50%;    
+}
+
+.currentweather{
+  padding-top: 1.8rem;
+  font-size: 40px;
+  text-align: center;
+}
+.weather{
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20rpx;
+}
+
+.title{
+    padding: 20rpx;
+    font-size: 16px;
+}
+
+.tiplist{
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    padding:10px;
+    background:#FFFFFF;
+    background:rgba(0, 0, 0, 0.5);
+    height: 4.5rem;
+}
+
+.future-item{
+    margin-top: 10rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    padding:10px;
+    background:#FFFFFF;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.more-item{
+    margin-top: 50rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    margin-bottom: 20rpx;
+    background:#FFFFFF;
+    background:rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+}
+
+
+

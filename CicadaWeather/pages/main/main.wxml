@@ -1,0 +1,23 @@
+<view class="content">
+  <view class="today">
+      <view class="info">
+          <view class="city"><text>{{city}}\n{{date}}</text></view>
+          <view class="currentweather"> {{currentweather}} </view>
+          <view class="weather"><text decode="{{true}}">{{temp}}&emsp;{{weather}}&emsp;{{wind}}</text></view>
+      </view>   
+  </view>
+
+  <view class="title">生活指数</view>
+  <view wx:for="{{tipList}}"> 
+    <view class="tiplist">{{item.name}} : {{item.zs}}<text>\n{{item.des}} </text></view>
+  </view> 
+
+  <view class="title">多日天气</view>
+  <view wx:for="{{futureItems}}"> 
+    <view class="future-item"><text decode="{{true}}">{{item.date}}&emsp;{{item.week}}&emsp;{{item.temperature}}&emsp; {{item.weather}}</text></view>
+  </view>
+
+
+  <navigator url="../components/life/life" hover-class="navigator-hover"><view class="more-item">更多资讯</view></navigator>
+
+</view>
